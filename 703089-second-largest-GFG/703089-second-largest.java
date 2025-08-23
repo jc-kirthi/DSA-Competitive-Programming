@@ -3,12 +3,16 @@ class Solution {
         int largest = -1;
         int secondLargest = -1;
 
-        for (int num : arr) {
-            if (num > largest) {
+        for (int num : arr) 
+        {
+            if (num > largest)
+            {
                 secondLargest = largest; // update second largest
                 largest = num;           // update largest
-            } else if (num < largest && num > secondLargest) {
-                secondLargest = num;     // update if smaller than largest but bigger than secondLargest
+            } 
+            else if (num < largest && num > secondLargest) // checking between 1st(<) and (>)3rd element
+            {
+                secondLargest = num;     
             }
         }
 

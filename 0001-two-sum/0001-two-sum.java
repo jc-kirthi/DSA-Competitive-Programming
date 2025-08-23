@@ -4,7 +4,8 @@ class Solution {
         {
             for (int j = i + 1; j < nums.length; j++)
             {
-                if(nums[j] == target - nums[i])
+                //cur(i)+x(j)=target
+                if(nums[j] == target - nums[i]) //if(nums[i]+nums[j]==target)
             
                  return new int[]{i, j}; 
              

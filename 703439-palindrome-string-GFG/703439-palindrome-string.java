@@ -1,7 +1,8 @@
 class Solution {
     boolean isPalindrome(String s) {
-        // code here
+        //creates a buffer copy
         StringBuilder sb = new StringBuilder(s);
+        //toString() converts buffer back to string
         if(s.equals(sb.reverse().toString()))
         return true;
         else

@@ -37,6 +37,10 @@ class Solution
            // GCD(sumOdd,sumEven)=n∗1=n
              return n;
 */
+
+
+// method----4
+// EUCLID ALGO
             int a = n * n; //odd terms
         int b = n * (n + 1); //even terms 
 
@@ -46,11 +50,19 @@ class Solution
           a=a%b;
           else
           b=b%a; 
-          if(a==0)
-          return b;
+          
         }
-        
+        if(a==0)
+          return b;
 return a;
+
+//recursion
+//method---5
+
+ //int a = n * n; //odd terms
+       // int b = n * (n + 1); //even terms 
+
+
     }
 }
    

@@ -6,12 +6,11 @@ class Solution {
         for (int i = 0; i < n; i++) {
             news[i] = s[n - 1 - i];  // reverse copy
         }
+
+        //iplace ---copying to the original string
         for (int i = 0; i < n; i++) {
             s[i] = news[i];
         }
-
-        // Print reversed string
-        System.out.println(news);
-        
+       
     }
 }

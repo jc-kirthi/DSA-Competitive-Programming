@@ -3,11 +3,11 @@ class Solution {
     public static void fizzBuzz(int number) {
         // Write your code here.
         if(number %3==0 && number %5==0)
-        System.out.print("FizzBuzz"+"\n");
+        System.out.println("FizzBuzz");
         else if(number%5==0)
-        System.out.print("Buzz \n");
+        System.out.println("Buzz");
         else if (number %3==0 )
-        System.out.print("Fizz\n");
+        System.out.println("Fizz");
         else
         System.out.println(number);
     }

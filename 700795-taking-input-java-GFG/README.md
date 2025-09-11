@@ -1,0 +1,3 @@
+# [Taking input - Java](https://www.geeksforgeeks.org/problems/taking-input-java/1?page=1&category=Java&sortBy=submissions)
+## Easy
+In this problem we will learn how to read inputs.You are given five&nbsp;inputs:&nbsp;a(integer), b(float ),&nbsp;c(long), d(byte), and s(string)&nbsp;respectively.&nbsp;You need to use the scanner class object and then take all the input and print each in a new line.Note:&nbsp;Consider using sc.nextLine( ) after byte input to handle any issues with input reading.Read:&nbsp;Java I/O
